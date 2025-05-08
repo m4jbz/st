@@ -1532,7 +1532,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len, int x
 	}
 
 	/* Harfbuzz transformation for ligatures. */
-	hbtransform(specs, glyphs, len, x, y);
+	// hbtransform(specs, glyphs, len, x, y);
 
 	return numspecs;
 }
